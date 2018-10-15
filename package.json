@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "run-ath": "parcel add-to-home.html"
+    "run-ath": "parcel add-to-home.html -d docs"
   },
   "devDependencies": {
     "parcel-bundler": "^1.10.3",
