@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/add-to-home.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,MAAM,CAAC,KAAP,CAAa,eAAb","file":"add-to-home.e4057ff9.map","sourceRoot":"..","sourcesContent":["\r\nwindow.alert(\"script works.\");\r\n"]}
