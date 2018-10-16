@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PWA Test | Add To Home</title>
-    <script src="js/add-to-home.js"></script>
+    <script>
+        window.addEventListener("load", () => {
+            if ("serviceWorker" in navigator) {
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker.register("./js/serviceWorker.js")
+                        .then(() => {
+                            console.log("serviceWorker registed.");
+                        })
+                        .catch((error) => {
+                            console.warn("serviceWorker error.", error)
+                        });
+                }
+            }
+        });
+    </script>
 </head>
 <body>
-<p>it works.</p>
+    <p>service worker</p>
 </body>
 </html>
