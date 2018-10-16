@@ -1,0 +1,14 @@
+{
+  "name": "ホームに追加デモ",
+  "short_name": "ATH",
+  "icons": [
+    {
+      "src": "/static/icon/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/pwa-test/",
+  "display": "standalone",
+  "theme_color": "#dedede"
+}
