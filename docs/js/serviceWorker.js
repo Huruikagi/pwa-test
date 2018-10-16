@@ -1,1 +1,1 @@
-self.addEventListener("fetch", () => { /* nothing to do */ });
+self.addEventListener("fetch", event => { /* nothing to do */ });
