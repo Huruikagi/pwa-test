@@ -3,7 +3,7 @@
   "short_name": "ATH",
   "icons": [
     {
-      "src": "/static/icon/144.png",
+      "src": "/pwa-test/icon/144.png",
       "sizes": "144x144",
       "type": "image/png"
     }
