@@ -10,7 +10,7 @@
         window.addEventListener("load", () => {
             if ("serviceWorker" in navigator) {
                 if ('serviceWorker' in navigator) {
-                    navigator.serviceWorker.register("./js/serviceWorker.js")
+                    navigator.serviceWorker.register("./js/serviceWorker.js", { scope: "/pwa-test/" })
                         .then(() => {
                             console.log("serviceWorker registed.");
                         })
