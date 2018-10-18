@@ -10,8 +10,8 @@ webブラウザからネイティブアプリにパラメタを渡して起動�
 
 ### iOS
 
-> 参考： [iOS] ディープリンク（Custom URL Scheme）でアプリを起動する
-> https://dev.classmethod.jp/smartphone/ios-custom-url-scheme/
+> 参考： Custom URL Schemeでアプリ内の任意のページを表示する
+> https://qiita.com/yamataku29/items/67f12142522306c3f86a
 
 ## Universal Links
 

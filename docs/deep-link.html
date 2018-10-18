@@ -19,5 +19,18 @@
 
 <p><button onclick="location.href = 'ofwtest://';">JSから呼び出し</button></p>
 
+<h2>呼び出し先切替テスト用</h2>
+
+<p><ul>
+    <li><a href="ofwtest://a">ofwtest://a</a></li>
+    <li><a href="ofwtest://b">ofwtest://b</a></li>
+</ul></p>
+
+<h2>パラメタ渡しテスト用</h2>
+
+<form method="get" action="ofwtest://a">
+    <input type="text" name="parapara" id="parapara"><button type="submit">OPEN</button>
+</form>
+
 </body>
 </html>
