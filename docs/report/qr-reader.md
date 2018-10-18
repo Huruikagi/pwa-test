@@ -14,7 +14,7 @@
 ZXingのC++移植をさらにJavaScriptに変換したライブラリです。
 > このライブラリはテストコードが不十分ということで，edi9999/jsqrcode の作者は，後述する cozmo/jsQR の利用を推奨しています。
 
-## jsQR
+## cozmo/jsQR
 
 + [GitHub](https://github.com/cozmo/jsQR)
 + [デモ（公式）](https://cozmo.github.io/jsQR/)
