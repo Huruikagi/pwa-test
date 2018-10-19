@@ -16,7 +16,7 @@ webブラウザからネイティブアプリにパラメタを渡して起動�
 
 ### Android
 
-AndroidManifest.xml で任意のViewに IntentFilter を追加します。
+AndroidManifest.xml で任意の View に IntentFilter を追加します。
 アプリがインストールされている状態で、該当スキームのURLにChromeから遷移しようとすると、
 そのままアプリが起動します。
 
