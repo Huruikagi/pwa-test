@@ -13,24 +13,29 @@
 
 <h2>カスタムスキーム</h2>
 
-<p>遷移先はどちらも ofwtest:// です。</p>
+<p>遷移先はどちらも deep-link-test:// です。</p>
 
-<p><a href="ofwtest://">リンク</a></p>
+<p><a href="deep-link-test://">リンク</a></p>
 
-<p><button onclick="location.href = 'ofwtest://';">JSから呼び出し</button></p>
+<p><button onclick="location.href = 'deep-link-test://';">JSから呼び出し</button></p>
 
 <h2>呼び出し先切替テスト用</h2>
 
 <p><ul>
-    <li><a href="ofwtest://a">ofwtest://a</a></li>
-    <li><a href="ofwtest://b">ofwtest://b</a></li>
+    <li><a href="deep-link-test://example?viewName=a">deep-link-test://example?viewName=a</a></li>
+    <li><a href="deep-link-test://example?viewName=b">deep-link-test://example?viewName=b</a></li>
 </ul></p>
 
 <h2>パラメタ渡しテスト用</h2>
 
-<form method="get" action="ofwtest://a">
-    <input type="text" name="parapara" id="parapara"><button type="submit">OPEN</button>
+<form method="get" action="deep-link-test://example">
+    <input type="hidden" name="viewName" value="a">
+    <label for="message">メッセージ：</label>
+    <input type="text" name="message" id="message"><br>
+    <button type="submit">送る</button>
 </form>
+
+<hr>
 
 <footer><a href="index.html">もどる</a></footer>
 </body>
