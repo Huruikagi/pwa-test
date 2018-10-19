@@ -28,15 +28,25 @@
 
 <h2>パラメタ渡しテスト用</h2>
 
-<form method="get" action="deep-link-test://example">
+<div>
     <input type="hidden" name="viewName" value="a">
     <label for="message">メッセージ：</label>
     <input type="text" name="message" id="message"><br>
-    <button type="submit">送る</button>
-</form>
+    <button id="submitMessage">送る</button>
+</div>
+
 
 <hr>
 
 <footer><a href="index.html">もどる</a></footer>
+
+<script>
+    document.getElementById("submitMessage").addEventListener("click", () => {
+        const message = document.getElementById("message").value;
+        const url = "deep-link-test://example?viewName=a&message=" + encodeURIComponent(message);
+        console.log(url);
+        location.href = url;
+    });
+</script>
 </body>
 </html>
